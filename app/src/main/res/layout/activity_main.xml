@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btnRelayPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relay_permission"/>
+
+    <TextView
+        android:id="@+id/txtRelay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/relay1"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/btnRelay1On"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/on"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnRelay1Off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/off"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtRelay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/relay2"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/btnRelay2On"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/on"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnRelay2Off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/off"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

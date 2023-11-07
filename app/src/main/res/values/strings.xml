@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">USBRelay</string>
+    <string name="relay_permission">Relay Permission</string>
+    <string name="relay1">Relay1</string>
+    <string name="relay2">Relay2</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+</resources>
